@@ -4,13 +4,20 @@ Aplicativo independente para leitura de peso de balança Urano e inserção cont
 
 ## Baixar o instalador
 
-**[Baixar UranoPesoConnect-Setup-0.1.1-win64.exe](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/download/v0.1.1/UranoPesoConnect-Setup-0.1.1-win64.exe)**
+**[Baixar UranoPesoConnect-Setup-0.1.2-win64.exe](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/download/v0.1.2/UranoPesoConnect-Setup-0.1.2-win64.exe)**
 
-[Ver arquivos e notas da versão](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/tag/v0.1.1)
+[Ver arquivos e notas da versão](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/tag/v0.1.2)
 
 O download é público e não exige conta no GitHub. Compatível com Windows 10/11 x64. O instalador contém Python e bibliotecas do aplicativo; não é necessário instalá-los separadamente.
 
-Inclui interface em português, simulador de pesagem, painel USB/COM, associação do dispositivo, F8 configurável, autorização da janela de destino e alternativa por clipboard.
+Inclui interface em português, simulador de pesagem, painel USB/COM, associação do dispositivo, F8 configurável, envio ao campo de texto em foco, com restrição opcional de janela e alternativa por clipboard.
+
+## Identificar a comunicação
+
+1. Deixe a balança em **Prot 2**, confirme com **E** e deixe um produto parado no prato.
+2. Na aba **Dispositivos USB**, selecione a COM da balança e clique em **Testar todos os protocolos**.
+3. O aplicativo testa até 96 combinações de comunicação e reconhece os sete formatos de saída descritos no manual quando chegam pela porta. Quando mostrar três leituras iguais, compare o peso com o visor e clique em **Usar leitura encontrada**.
+4. Clique em um campo de texto, no computador ou no ERP remoto, e solte **F8**. Em caso de falha no teste da porta, **Salvar diagnóstico…** exporta as tentativas e os dados recebidos.
 
 ## Drivers USB
 
