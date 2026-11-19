@@ -4,9 +4,9 @@ Aplicativo independente para leitura de peso de balança Urano e inserção cont
 
 ## Baixar o instalador
 
-**[Baixar UranoPesoConnect-Setup-0.1.3-win64.exe](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/download/v0.1.3/UranoPesoConnect-Setup-0.1.3-win64.exe)**
+**[Baixar UranoPesoConnect-Setup-0.1.4-win64.exe](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/download/v0.1.4/UranoPesoConnect-Setup-0.1.4-win64.exe)**
 
-[Ver arquivos e notas da versão](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/tag/v0.1.3)
+[Ver arquivos e notas da versão](https://github.com/thiagoneritorqueti/urano-peso-connect-downloads/releases/tag/v0.1.4)
 
 O download é público e não exige conta no GitHub. Compatível com Windows 10/11 x64. O instalador contém Python e bibliotecas do aplicativo; não é necessário instalá-los separadamente.
 
@@ -14,7 +14,7 @@ Inclui interface em português, simulador de pesagem, painel USB/COM, associaç�
 
 ## Início automático e reconexão
 
-O instalador traz marcada a opção **Iniciar o Urano Peso Connect na bandeja ao entrar no Windows**. A atualização aproveita o protocolo e a associação USB já salvos. Depois do login na mesma conta, o programa aguarda a balança mesmo se ela estiver desligada. Ao religar ou mudar o cabo para outra tomada USB, deixe um produto parado no prato até aparecer uma nova leitura. Em caso de adaptadores iguais que o programa não consiga distinguir, selecione a COM em **Dispositivos USB**.
+O instalador traz marcada a opção **Iniciar o Urano Peso Connect com o Windows e conectar à balança**. A versão 0.1.4 corrige a abertura no login quando um perfil antigo tinha a conexão automática desmarcada. A atualização aproveita o protocolo e a associação USB já salvos. Depois do login na mesma conta, o programa aguarda a balança mesmo se ela estiver desligada. Ao religar ou mudar o cabo para outra tomada USB, deixe um produto parado no prato até aparecer uma nova leitura. Em caso de adaptadores iguais que o programa não consiga distinguir, selecione a COM em **Dispositivos USB**.
 
 ## Identificar a comunicação
 
